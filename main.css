@@ -400,7 +400,7 @@ img.lazyload:not(.loaded) {
 
 .card, .card .list-group-item{
   background-color: black;
-  background-color: #0000001f;
+  background-color: black;
   color: white;
   padding: 5;
 }
@@ -418,5 +418,5 @@ img.lazyload:not(.loaded) {
 }
 
 #changelog-content .card:hover .badge, #changelog-content .card.border-light .badge{
-  opacity: 0.4;
+  opacity: 1;
 }
