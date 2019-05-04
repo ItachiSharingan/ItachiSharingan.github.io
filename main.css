@@ -418,5 +418,5 @@ img.lazyload:not(.loaded) {
 }
 
 #changelog-content .card:hover .badge, #changelog-content .card.border-light .badge{
-  opacity: 1;
+  opacity: 0.4;
 }
