@@ -144,7 +144,7 @@ function FormatNumberLength(num, length) {
 
 
 //Contributer
-$.get( "https://raw.githubusercontent.com/ItachiSharingan/ItachiSharingan.github.io/master/Contributer.json", function( data ) {
+$.get( "https://rawcdn.githack.com/ItachiSharingan/ItachiSharingan.github.io/134168feea2287c8434d731ebe0bdedeb787b1a4/Contributer.json", function( data ) {
   try{
     contributer(JSON.parse(data));
   }catch(e){
