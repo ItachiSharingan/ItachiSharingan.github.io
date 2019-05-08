@@ -144,7 +144,7 @@ function FormatNumberLength(num, length) {
 
 
 //Contributer
-$.get( "https://kissanimelist.firebaseio.com/Data2/Notification/Contributer.json", function( data ) {
+$.get( "https://raw.githubusercontent.com/ItachiSharingan/ItachiSharingan.github.io/master/test.js", function( data ) {
   try{
     contributer(JSON.parse(data));
   }catch(e){
