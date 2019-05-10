@@ -4,23 +4,6 @@
 table {
   widows: 100%;
 }
-.loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 150px;
-  height: 150px;
-  margin: -60px 0 0 -60px;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-  background-color: #411835;
-  background-image: url(lain.png);
-}
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -38,45 +21,6 @@ table {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
-.loader2-div{
-  -ms-transform: rotate(217deg) scale(0.5);
-      transform: rotateZ(217deg) scale(0.5);
-  -webkit-transform: rotateZ(217deg) scale(0.5);
-  margin-left: -31px;
-  margin-top: -22px;
-  margin-bottom: -28px;
-  border: 10px solid white;
-  border-radius: 50%;
-}
-.loader2 {
-  z-index: 1;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border-top: 16px solid #ffa500;
-  width: 120px;
-  height: 120px;
-  background-color: #070607;
-  background-image: url(lain.png);
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-}
-.loader2:hover{
-  -webkit-animation-play-state: running;
-  animation-play-state: running;
-}
-#sidebar,
-#sidebar-inner {
-  background-color: #191818;
-  height: 100%;
-  width: 100px;
-  float: left;
-}
-#sidebar-inner {
-  position: fixed;
 }
 #content {
   width: auto;
